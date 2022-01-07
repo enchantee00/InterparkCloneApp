@@ -1,0 +1,6 @@
+framework module Pods_InterparkCloneCoding_week5_ {
+  umbrella header "Pods-InterparkCloneCoding<week5>-umbrella.h"
+
+  export *
+  module * { export * }
+}
