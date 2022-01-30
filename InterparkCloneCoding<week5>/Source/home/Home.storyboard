@@ -11,7 +11,6 @@
         <!--Home View Controller-->
         <scene sceneID="gHT-xh-qFt">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ugZ-LK-N2e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="homeView" id="Hoa-2O-7wd" customClass="homeViewController" customModule="InterparkCloneCoding_week5_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cnZ-fN-EHC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -33,6 +32,7 @@
                     <tabBarItem key="tabBarItem" title="" image="house.fill" catalog="system" selectedImage="house.fill" id="pdC-dj-xR4"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ugZ-LK-N2e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-875" y="1554"/>
         </scene>

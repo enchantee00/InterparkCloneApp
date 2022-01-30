@@ -58,6 +58,13 @@
                                     <action selector="closeViewBtn:" destination="60x-sb-hdS" eventType="touchUpInside" id="hy3-y4-9Q7"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ibG-mq-hLt">
+                                <rect key="frame" x="20" y="548" width="374" height="220"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="DHe-Kv-Gzv"/>
+                                    <constraint firstAttribute="width" constant="374" id="Ne5-Ug-Gp3"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fPV-XE-MJD"/>
                         <color key="backgroundColor" red="1" green="1" blue="0.99999994039999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -66,19 +73,23 @@
                             <constraint firstItem="2hF-oO-Qsv" firstAttribute="top" secondItem="fPV-XE-MJD" secondAttribute="top" constant="197" id="8sr-ih-Bg7"/>
                             <constraint firstItem="1nE-aI-a74" firstAttribute="bottom" secondItem="fPV-XE-MJD" secondAttribute="bottom" id="CNh-L1-Tvi"/>
                             <constraint firstItem="fPV-XE-MJD" firstAttribute="trailing" secondItem="1nE-aI-a74" secondAttribute="trailing" constant="20" id="Mmd-dq-mSq"/>
+                            <constraint firstItem="fPV-XE-MJD" firstAttribute="trailing" secondItem="ibG-mq-hLt" secondAttribute="trailing" constant="20" id="SjU-ct-Mn8"/>
                             <constraint firstItem="QbV-e0-gaw" firstAttribute="top" secondItem="GTl-QF-Ou6" secondAttribute="bottom" id="hCZ-7h-ePf"/>
                             <constraint firstItem="2hF-oO-Qsv" firstAttribute="centerX" secondItem="z6y-gn-Oxf" secondAttribute="centerX" id="ixo-1J-tEt"/>
+                            <constraint firstItem="ibG-mq-hLt" firstAttribute="leading" secondItem="fPV-XE-MJD" secondAttribute="leading" constant="20" id="qo8-cu-66U"/>
                             <constraint firstItem="QbV-e0-gaw" firstAttribute="centerX" secondItem="z6y-gn-Oxf" secondAttribute="centerX" id="smA-sx-FVR"/>
                             <constraint firstItem="GTl-QF-Ou6" firstAttribute="centerX" secondItem="z6y-gn-Oxf" secondAttribute="centerX" id="vaL-fs-Ao8"/>
+                            <constraint firstItem="ibG-mq-hLt" firstAttribute="top" secondItem="QbV-e0-gaw" secondAttribute="bottom" constant="1" id="yf6-ti-42E"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="TestImg" destination="ibG-mq-hLt" id="ABH-K5-0bt"/>
                         <outlet property="socialLoginBtn" destination="GTl-QF-Ou6" id="bws-We-nFs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A4g-Mm-oEx" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-746" y="826"/>
+            <point key="canvasLocation" x="-746.37681159420299" y="825.66964285714278"/>
         </scene>
     </scenes>
     <resources>

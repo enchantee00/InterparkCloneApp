@@ -12,6 +12,10 @@ import KakaoSDKCommon
 
 class LoginViewController: UIViewController {
     
+    @IBOutlet weak var TestImg: UIImageView!
+    
+    
+    
     let ud = UserDefaults.standard
     
     //Default -> 로그인 정보 없을 때
@@ -104,6 +108,13 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        if let url = URL(string: "https://yaimg.yanolja.com/resize/place/v4/2017/08/23/14/1280/599d160ab30c00.19752238.jpg") {
+            
+            let data = try? Data(contentsOf: url)
+            TestImg.image = UIImage(data: data!)
+        }
+        
         
     }
 }
